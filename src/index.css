@@ -96,7 +96,7 @@ body{background-color: rgb(36, 36, 36);}
 
 .search{
   max-width: 600px;
-  margin: 60px auto;
+  margin: 20px auto;
 }
 
 .form-control{width: 100%;}
@@ -259,10 +259,10 @@ body{background-color: rgb(36, 36, 36);}
 }
 
 @media (max-width: 560px){
-  .cocktail-info, .image-info, .drink-info{
+  .cocktail-info, .image-info, .drink-info, .sec{
     width: 90%;
   }
 
   .drink-info{font-size: 1.2rem;}
-  
+  .form-control input{width: 300px;}
 }

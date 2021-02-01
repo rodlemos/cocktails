@@ -5,7 +5,7 @@ const Cocktail = ({image,name,id,info,glass}) => {
   return (
     <article className="cocktail">
       <div className="img-container">
-        <img src={image} alt={name}/>
+      <Link to={`/cocktail/${id}`}><img src={image} alt={name}/></Link>
       </div>
       
       <div className="cocktail-footer">
